@@ -15,8 +15,8 @@ p {
     width: 100px;
 }
 ol {
-    list-style-type: square;
+    list-style-type: upper-alpha;
 }
 ul{
-    list-style-type: lower-alpha;
+    list-style-type: square;
 }
