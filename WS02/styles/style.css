@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color:white;
+}
+h1 {
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+    color:lightgrey;
+}
+.MyDiv {
+    border: 2px dotted;
+    height: 100px;
+}
+ol {
+    list-style-type: square;
+}
+ul{
+    list-style-type: lower-alpha;
+}
