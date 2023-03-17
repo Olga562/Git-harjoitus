@@ -12,6 +12,7 @@ p {
 .MyDiv {
     border: 2px dotted;
     height: 100px;
+    width: 100px;
 }
 ol {
     list-style-type: square;
