@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color:white;
+    background-image: url("..kuvat/taustakuva.jpg");
+}
+h1 {
+    font-size: 20px;
+    border-style: groove;
+}
+p {
+    font-size: 12px;
+    color:rgba(44, 142, 159, 0.92);
+    border: 2px solid lightcoral;
+    border-radius: 8px;
+}
+.MyDiv {
+    border: 2px dotted;
+    height: 100px;
+    width: 100px;
+}
+ol {
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: square;
+}
+kuva1  {
+    width: 200px;
+}
+kuva2 {
+    width: 200px;
+}
