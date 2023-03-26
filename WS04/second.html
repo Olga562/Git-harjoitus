@@ -3,11 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>WEB basic 04b tehtävä</title>
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" type="text.css" href="styles/styles.css">
     </head>
     <body>
-       <a href="index.html" target="_self">Link to index.html</a><br>
-       <h1>Tämä on toinen sivu</h1>
+        <header>
+            <h1>My Web Site</h1>
+        </header>
+       <section> 
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">First</a></li>
+                <li><a href="third.html">Third</a></li>
+
+            </ul>
+
+       </nav>
+   
+    <nav class="side">
+        <ul>
+            <li><a target="_blank" href="https://www.freecodecamp.org/learn/202">FreeCodeCamp</a></li>
+            <li><a target="_blank" href="https://www.khanacademy.org/computing/computer-programming/html-css">KhanAcademy</a> </li>
+        </ul>
+    </nav>
+    <div>
+       <h2>Tämä on toinen sivu</h2>
        <p>Tämä on paragraph</p>
        <img src="kuvat/kissanpentu.jpg" alt="Kissan pentu" id="kuva1">
        <figure>
@@ -16,5 +35,11 @@
        </figure>
        <label for="bar">Kurssin eteneminen</label>
        <progress id="bar" value="4" max="12">moduuli 4</progress>
+    </div>
+       </section>
+       <footer>
+        <p>Copyright</p>
+    </footer>
+
     </body>
 </html>

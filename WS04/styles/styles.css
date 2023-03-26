@@ -1,32 +1,108 @@
 body {
-    */ background-color: black; */
-    color:white;
-    background-image: url("..kuvat/taustakuva.jpg");
+    background-color: rgb(244, 231, 211);
+    color:rgb(12, 11, 11);
+    padding: 0px;
+    margin: 0px;
+     
 }
+
 h1 {
-    font-size: 20px;
-    border-style: groove;
+    font-size: 40px;
+    padding: 0px;
+    text-align:center;
+
 }
-p {
+h2 {
+    margin: 5px;
+}
+#ekaP {
     font-size: 12px;
-    color:rgba(44, 142, 159, 0.92);
+    color:rgba(9, 74, 40, 0.92);
     border: 2px solid lightcoral;
     border-radius: 8px;
+
 }
 .MyDiv {
     border: 2px dotted;
     height: 100px;
     width: 100px;
+    padding: 0px 5px 5px 5px;
+    margin: 20px;
+   
 }
 ol {
     list-style-type: upper-alpha;
+    
 }
 ul{
     list-style-type: square;
 }
-kuva1  {
+#kuva1  {
     width: 200px;
 }
-kuva2 {
+#kuva2 {
     width: 200px;
+    border: 1px solid;
 }
+header {
+    background-color: rgb(192, 187, 181);
+    padding: 10px;   
+}
+.side {
+    float: left;
+    width: 30%;
+    background:rgba(92, 89, 85, 0.92);
+    margin: 0px;
+    height: 400px;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+div {
+    float: left;
+    width: auto;
+    margin: 10px;
+}
+.menu {
+    float:inline-start;
+    text-align: center;
+    background:rgba(77, 78, 78, 0.92);
+    height: 30px;
+    margin: 0px;
+    padding: 5px 0px 5px 0px; 
+}
+.menu ul {
+    list-style-type: none;
+    display:inline-flex;
+    margin: auto; 
+    padding: 5px; 
+    
+}
+.menu li {
+    margin-left: 10px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color:red;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+footer {
+    background: rgb(192, 187, 181);
+    padding: 2px;
+    text-align:center;
+    
+}
+
+
+
+    
+
