@@ -30,8 +30,12 @@ h2 {
     margin: 20px;
    
 }
+.list {
+    display:block;
+}
 ol {
     list-style-type: upper-alpha;
+    
     
 }
 ul{
@@ -42,7 +46,6 @@ ul{
 }
 #kuva2 {
     width: 200px;
-    border: 1px solid;
 }
 header {
     background-color: rgb(192, 187, 181);
@@ -50,21 +53,24 @@ header {
 }
 .side {
     float: left;
-    width: 30%;
+    width: 20%;
     background:rgba(92, 89, 85, 0.92);
     margin: 0px;
-    height: 400px;
-
+    height: 500px;
 }
 nav ul {
     list-style-type: none;
     padding: 10px;
+}
+.side li {
+    padding: 3px;
 }
 
 div {
     float: left;
     width: auto;
     margin: 10px;
+    
 }
 .menu {
     float:inline-start;
