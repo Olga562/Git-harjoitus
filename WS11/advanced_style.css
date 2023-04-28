@@ -1,0 +1,39 @@
+#b-s {
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+    box-shadow:  5px 10px 5px lightcoral;
+    margin: 30px;
+}
+
+#t-s-h{
+   width: 200px;
+   text-shadow: 5px 10px lightgray; 
+   padding: 5px;
+   background-image: url("background/background.jpg") ;
+   background-size: cover;
+}
+#t-s-p {
+    text-shadow: 2px 2px lawngreen;
+}
+nav {
+    text-align: center;
+    margin: 50px;
+}
+a {
+    margin: 10px;
+    font-size: 25px;
+    transition: 1s;
+    color:lightblue;
+}
+nav a:hover {
+    color: navy;
+    font-size: 30px;
+}
+@media only screen and (max-width: 799px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    
+}
