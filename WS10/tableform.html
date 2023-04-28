@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WO10b HARJOITUS</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <table>
+        <caption>Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Title</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Mr. Johns</td>
+            <td>Director</td>
+            <td>7000$</td>
+        </tr>
+        <tr>
+            <td>Chairman</td>
+            <td>5000$</td>
+        </tr>
+        <tr>
+            <td>Mrs. Kovalainen</td>
+            <td>Vice Chairman</td>
+            <td>4000$</td>
+        </tr>
+        <tr>
+            <td>Mr. Iivonen</td>
+            <td>Salesman</td>
+            <td>4000$</td>
+        </tr>
+    </table>
+    &nbsp;
+    <h2>The Form element</h2>
+    <form action="#">
+        <fieldset>
+         <legend>New User</legend>   
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email adress</label>
+        <input type="email" id="email" name="email"><br><br>
+        <textarea id="comment" name="comment" rows="6" cols="80"></textarea><br><br>
+        <input type="submit" value="Submit">
+        <input type="checkbox" id="nletter" name="nletter" value="nl">
+        <label for="nletter">Singn up for newsletter:</label><br><br>
+        <label for="language">Language for newletter:</label><br><br>
+        <select name="language" id="language">
+            <option value="Finnish">Finnish</option>
+            <option value="English">English</option>
+            <option value="Russian">Russian</option>
+        </select><br><br>
+        <input type="submit" value="Add new user">
+    </fieldset>
+    </form>
+</body>
+</html>

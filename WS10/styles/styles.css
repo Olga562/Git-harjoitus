@@ -1,0 +1,57 @@
+caption{
+    font-size: large;
+    text-align: left;
+}
+
+table {
+    border-collapse:collapse;
+    border:2px solid black;
+    font-family: sans-serif;
+    width: 50%;
+}
+ td,
+ th{
+    border: 1px solid black;
+    padding: 7px 5px;
+ }
+ th {
+    background-color: aquamarine;
+ }
+ td {
+    text-align: center;
+ }
+ tr:nth-child(even) {
+    background-color: rgb(250, 250, 250);
+ }
+ tr:nth-child(odd) {
+   background-color: aliceblue;
+ }
+ tr:hover {
+   background-color: coral;
+ }
+ fieldset {
+   background-color: lightgrey;
+   padding: 10px;
+   margin: auto;
+   font-family: verdana;
+   border-radius: 4px;
+ }
+ 
+
+ legend {
+   background-color: white;
+   color: black;
+   padding: 5px 10px;
+   border: 2px solid black;
+   border-radius: 4px;
+ }
+ input[type="submit"] {
+   font-family: verdana;
+   background-color: grey;
+   color: white;
+   cursor: pointer;
+ }
+ input[type="submit"]:hover {
+   background-color: black;
+ }
+
