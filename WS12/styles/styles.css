@@ -29,6 +29,73 @@
   transform: translate(-50%, -50%);
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.35);
-  color:beige;
+  text-align: center;
 }
 
+.main_img{
+  height: 500px; 
+  width: 100% ;
+}
+.main_img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.top-center{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+  .polaroid {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: rotate(3deg);
+    text-align: center;
+    }
+
+  .polaroid img {
+    width: 100%;
+    height: auto;
+  }
+
+  .polaroid-text {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+  }
+  a{
+    color:beige;
+  }
+  a:hover{
+    color:grey;
+  }
+ 
+  .polaroid.pic-1{
+    display: list-item;
+    list-style: none;
+    z-index: 1;
+    transform:rotate(-3deg);
+  }
+
+  .polaroid.pic-2{
+    list-style: none;
+    display:list-item;
+    z-index:-1;
+  }
+ .text-container{
+  padding: 10px 50px 10px 10px;
+  margin-top: 60px;
+ }
+ul{
+  line-height: 2.0;
+}
