@@ -54,7 +54,6 @@
   .polaroid {
     position: relative;
     display: inline-block;
-    margin: 20px;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,6 +64,7 @@
   .polaroid img {
     width: 100%;
     height: auto;
+    overflow: hidden;
   }
 
   .polaroid-text {
@@ -73,29 +73,64 @@
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
   }
+
+  .rotated{
+    transform:rotate(-3deg);
+  }
+
   a{
     color:beige;
   }
   a:hover{
     color:grey;
   }
- 
-  .polaroid.pic-1{
-    display: list-item;
-    list-style: none;
-    z-index: 1;
-    transform:rotate(-3deg);
+
+.big-container{
+  display:flex;
+}
+  .polaroid-container{
+    display: inline-block;
   }
 
-  .polaroid.pic-2{
-    list-style: none;
-    display:list-item;
-    z-index:-1;
-  }
  .text-container{
+  display: inline-block;
   padding: 10px 50px 10px 10px;
-  margin-top: 60px;
  }
 ul{
   line-height: 2.0;
+}
+.jumbotron h1{
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#adress{
+  margin-left: 100px;
+  width: 200px;
+  padding-right: 0px;
+  text-align: center;
+}
+#contacts{
+  width: 200px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.contactMe{
+  display: flex;
+  justify-content: space-around;
+}
+
+#pic{
+  padding-left: 40px;
+  text-align: center;
+}
+
+#description{
+  width: 400px;
+  
 }
