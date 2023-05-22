@@ -12,6 +12,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong|Montserrat">
+
   </head>
 
   <body>
@@ -62,15 +64,27 @@
                     <div class="carousel-img">
                     <img src="kuvat/sunset.jpg" alt="Sunset">
                   </div>
+                  <div class="carousel-caption">
+                    <h1>Bali Tour</h1>
+                    <p>14.06.-28.06.2023</p>
+                  </div>
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-img">
                     <img src="kuvat/riisipelto.jpg" alt="Ricefield">
                   </div>
+                  <div class="carousel-caption">
+                    <h1>Your unforgettable 14 days <br>
+                      vacation on the island</h1>
+                  </div>
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-img">
                     <img src="kuvat/BaliTemple.jpg" alt="Temple">
+                  </div>
+                  <div class="carousel-caption">
+                    <h1>Discover the hidden gem<br>
+                       of Bali</h1>
                   </div>
                   </div>
                 </div>
@@ -83,19 +97,101 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+            </div>
+
               <div class="mt-5 mb-5"></div>
+
+            <div class="container">
               <div class="row">
-                <div class="col-md-12 text-center">
-                  <h5>Magical Bali</h5>
-                  <p>Bali, an enchanting island in Indonesia, captivates
-                     visitors with its stunning natural beauty, vibrant culture, and warm hospitality.
-                       Known as the "Island of the Gods," Bali offers a diverse range of experiences, 
-                       from pristine beaches and lush rice terraces to ancient temples and traditional arts. 
-                       Whether you seek relaxation, exploration, or spiritual enlightenment, 
-                       Bali is a destination that leaves a lasting impression on all who visit.</p>
-                  </div>
+                <div class="col-md-12">
+                  <h5 class="text-center font-weight-bold">A trip that will be remembered! </h5>
+                  <p>Attention adventure seekers and culture enthusiasts! Have you ever dreamed of exploring
+                     an island paradise filled with breathtaking landscapes, rich traditions, and warm hospitality? 
+                     Look no further than the magical island of Bali!<br>
+                     Our Bali tour invites you to dive into the heart and soul of this enchanting island. From the
+                    majestic Tanah Lot Temple, where you'll witness spectacular sunsets, to the spiritual sanctuary 
+                    of Ubud, where the arts thrive and tranquility reigns supreme, every moment will leave you awe-inspired.<br>
+                    Immerse yourself in the cultural melting pot as you explore bustling markets,
+                    interact with mischievous monkeys at the Sacred Monkey Forest, and witness the 
+                    mystical rituals at Tirta Empul Temple. Discover the beauty of the Tegalalang
+                    Rice Terraces, where emerald-green terraced fields extend as far as the eye can
+                   see, offering a glimpse into the traditional farming practices that have sustained generations.</p>
+                   
+                   <div class="mt-5 mb-5"></div>
+
+                   <h5 class="text-center font-weight-bold">What is included in the tour?</h5>
+
+                   <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <i class="fa fa-car" style="font-size: 45px;color: rgb(92, 90, 90);padding: 20px;"></i>
+                        <p class="font-weight-bold">Transfer</p>
+                        <p>
+                          We will meet you and take you to the airport
+                          at any time,
+                          as well as all movements along the route as part of a group in a comfortable car</p>
+                      </div>
+                      <div class="col-md-4">
+                        <i class="fa fa-house" style="font-size: 45px;color: rgb(92, 90, 90);padding: 20px"></i>
+                        <p class="font-weight-bold">Hotels</p>
+                        <p>
+                          Double occupancy in a hotel
+                          with swimming pool, air conditioning, TV and Wi-Fi</p>
+                      </div>
+                      <div class="col-md-4">
+                        <i class="fa fa-utensils" style="font-size: 45px;color: rgb(92, 90, 90);padding: 20px;"></i>
+                        <p class="font-weight-bold">Meals</p>
+                        <p>Free breakfast at the hotel</p>
+                      </div>
+                    </div>
+                  </div> 
+
                   <div class="mt-5 mb-5"></div>
+
+                  <p class="font-weight-bold">Don't miss this opportunity to embark on a journey that will leave you with cherished memories and 
+                   a deep connection to the soul-stirring island of Bali. Book your spot today and get ready to embark
+                    on the adventure of a lifetime!</p>
+                  </div>
               </div>
+              
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Join us
+              </button>
+              
+              
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Leave a request for a tour</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form id="myForm" action="mailto:tselms.olga@gmail.com">
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+
+              <div class="mt-5 mb-5"></div>
+
               <div class="container">
                 <div class="row">
                   <div class="col-md-4">
@@ -126,8 +222,9 @@
                 </div>
               </div>
               
-            </div>
+            
           </main>
+
           <div class="mt-5 mb-5"></div>
         
         <footer class="bg-dark text-center text-white">

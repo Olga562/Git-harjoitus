@@ -1,3 +1,6 @@
+body{
+  font-family: Montserrat, sans-serif;
+}
 .carousel-img {
     height: 500px;
     width: 100%;
@@ -32,6 +35,8 @@
   text-align: center;
 }
 
+
+
 .main_img{
   height: 500px; 
   width: 100% ;
@@ -47,7 +52,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color:white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Trirong, serif;
   font-size: 40px;
 }
 
@@ -59,12 +64,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: rotate(3deg);
     text-align: center;
+    overflow: hidden;
     }
 
   .polaroid img {
     width: 100%;
     height: auto;
-    overflow: hidden;
+    object-fit: cover;
   }
 
   .polaroid-text {
@@ -76,6 +82,7 @@
 
   .rotated{
     transform:rotate(-3deg);
+    z-index: 1;
   }
 
   a{
@@ -88,9 +95,7 @@
 .big-container{
   display:flex;
 }
-  .polaroid-container{
-    display: inline-block;
-  }
+ 
 
  .text-container{
   display: inline-block;
@@ -103,34 +108,30 @@ ul{
   text-align: center;
 }
 
-.info {
-  display: flex;
-  justify-content: space-between;
-}
-
-#adress{
-  margin-left: 100px;
-  width: 200px;
-  padding-right: 0px;
-  text-align: center;
-}
-#contacts{
-  width: 200px;
-  text-align: center;
-  margin-right: 100px;
-}
-
-.contactMe{
-  display: flex;
-  justify-content: space-around;
-}
-
-#pic{
-  padding-left: 40px;
+.info{
+  padding-left: 50px;
   text-align: center;
 }
 
 #description{
-  width: 400px;
+  width: auto;
   
 }
+.form{
+  width: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  text-align: left;
+  font-family: Trirong, serif;
+  font-size: 30px;
+}
+
+
+
+
