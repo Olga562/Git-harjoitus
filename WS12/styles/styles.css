@@ -1,6 +1,9 @@
 body{
   font-family: Montserrat, sans-serif;
 }
+
+/* Carousel style*/
+
 .carousel-img {
     height: 500px;
     width: 100%;
@@ -15,6 +18,8 @@ body{
   .carousel-img .d-block {
     width: 100%;
   }
+
+  /* First page images*/
 .col-img{
   height: 350px;
   overflow: hidden;
@@ -35,8 +40,15 @@ body{
   text-align: center;
 }
 
+/*On small screen add top-margin*/
 
+@media only screen and (max-width: 768px){
+  .col-img{
+    margin-top: 5px;
+  }
+}
 
+/* Main image style*/
 .main_img{
   height: 500px; 
   width: 100% ;
@@ -46,6 +58,7 @@ body{
   width: 100%;
   object-fit: cover;
 }
+/* Kuvateksti*/
 .top-center{
   position:absolute;
   top: 50%;
@@ -56,6 +69,7 @@ body{
   font-size: 40px;
 }
 
+/* Polaroid picture*/
   .polaroid {
     position: relative;
     display: inline-block;
@@ -79,31 +93,33 @@ body{
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
   }
-
+  /* Rotared on other side*/
   .rotated{
     transform:rotate(-3deg);
     z-index: 1;
   }
 
+  /* Links*/
   a{
     color:beige;
   }
   a:hover{
     color:grey;
-  }
+  } 
 
-.big-container{
-  display:flex;
-}
- 
 
  .text-container{
   display: inline-block;
   padding: 10px 50px 10px 10px;
  }
+
+
 ul{
   line-height: 2.0;
 }
+
+
+/* Jumbotron*/
 .jumbotron h1{
   text-align: center;
 }
@@ -117,10 +133,15 @@ ul{
   width: auto;
   
 }
+
+
+
 .form{
   width: auto;
 }
+ 
 
+/* Text on carousel*/
 .carousel-caption {
   position: absolute;
   top: 0;
